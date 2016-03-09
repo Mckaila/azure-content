@@ -23,7 +23,7 @@ The Azure AD Connect installation wizard offers two different paths:
 
 - In Express Settings, we require more privileges so that we can setup your configuration easily, without requiring you to create users or configure permissions separately.
 
-- In Custom Settings we offer you more choices and options, but there are some situations in which you’ll need to ensure you have the correct permissions yourself.
+- In Custom Settings, we offer you more choices and options, but there are some situations in which you’ll need to ensure you have the correct permissions yourself.
 
 ## Related documentation
 If you did not read the documentation on [Integrating your on-premises identities with Azure Active Directory](active-directory-aadconnect.md), the following table provides links to related topics.
@@ -36,7 +36,7 @@ If you did not read the documentation on [Integrating your on-premises identitie
 
 
 ## Express settings installation
-In Express settings the installation wizard will ask for AD DS Enterprise Admin credentials so your on-premises Active Directory can be configured with required permissions for Azure AD Connect. If you are upgrading from DirSync the AD DS Enterprise Admins credentials are used to reset the password for the account used by DirSync. You will also need Azure AD Global Administrator credentials.
+In Express settings, the installation wizard will ask for AD DS Enterprise Admin credentials so your on-premises Active Directory can be configured with required permissions for Azure AD Connect. If you are upgrading from DirSync the AD DS Enterprise Admins credentials are used to reset the password for the account used by DirSync. You will also need Azure AD Global Administrator credentials.
 
 Wizard Page  | Credentials Collected | Permissions Required| Used For
 ------------- | ------------- |------------- |------------- |
