@@ -36,7 +36,7 @@ If you did not read the documentation on [Integrating your on-premises identitie
 
 
 ## Express settings installation
-In Express settings, the installation wizard will ask for AD DS Enterprise Admin credentials so your on-premises Active Directory can be configured with required permissions for Azure AD Connect. If you are upgrading from DirSync the AD DS Enterprise Admins credentials are used to reset the password for the account used by DirSync. You will also need Azure AD Global Administrator credentials.
+In Express settings, the installation wizard will ask for AD DS Enterprise Admin credentials so your on-premises Active Directory can be configured with required permissions for Azure AD Connect. If you are upgrading from DirSync, the AD DS Enterprise Admins credentials are used to reset the password for the account used by DirSync. You will also need Azure AD Global Administrator credentials.
 
 Wizard Page  | Credentials Collected | Permissions Required| Used For
 ------------- | ------------- |------------- |------------- |
@@ -77,7 +77,7 @@ Proxy trust credentials |Federation service trust credentials (the credentials t
 AD FS Service Account page, "Use a domain user account option"|AD user account credentials|Domain user|The AD user account whose credentials are provided will be used as the logon account of the AD FS service.
 
 ### Create the AD DS account
-When you install Azure AD Connect the account you specify on the **Connect your directories** page must be present in Active Directory and have required permissions granted. The installation wizard will not verify the permissions and any issues will only be found during synchronization.
+When you install Azure AD Connect, the account you specify on the **Connect your directories** page must be present in Active Directory and have required permissions granted. The installation wizard will not verify the permissions and any issues will only be found during synchronization.
 
 Which permissions you require depends on the optional features you enable. If you have multiple domains, the permissions must be granted for all domains in the forest. If you do not enable any of these features the default **Domain User** permissions will be sufficient.
 
